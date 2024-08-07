@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gupter:wght@400;500;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalnia+Glaze:wght@100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <img class="logo" src="./logo.png">
+            <ul>
+                <li class="listitems"><a class="links" href="#home">HOME</a></li>
+                <li class="listitems"><a class="links" href="#about">ABOUT </a></li>
+                <li class="listitems"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="listitems"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="homecontent">
+                <h1 class="animate__animated animate__heartBeat" id="username">I'm Ana <span id="lname">Steel</span></h1>
+                <p id="pa">This is my official portfolio website to describe all<br>
+                    Details and work experience in Web Devolopment.</p>
+                <a id="download" href="./page.png" download>DOWNLOAD CV</a>
+            </div>
+            <div class="homeimages">
+                <img src="./shapy.png" alt="" id="shape" class="group1">
+                <img src="./girly.png" alt="" id="girl" class="group1">
+            </div>
+        </section>
+        <div id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="aboutimage">
+                    <img class="img1"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-TPjdvVB71EI4G6CyzYN8wt6dd7jdE_u9sA&s"
+                        alt="about">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae error perspiciatis earum aliquid
+                        laboriosam eaque, officiis eos commodi voluptatibus nulla illum ut corrupti, dicta veritatis non
+                        modi ducimus culpa magni.
+                        Possimus, molestiae similique sint est et ducimus blanditiis natus ullam iusto cumque dolorum,
+                        aut accusantium ratione aliquam culpa distinctio consequatur nihil expedita error! Ratione
+                        laborum non modi commodi libero eum.
+                        Magnam delectus nobis corrupti odit ratione iusto quam neque et voluptatem nihil ipsum esse ut
+                        ducimus, animi molestias illo praesentium suscipit quod consectetur. Nobis, ipsa iure nostrum
+                        obcaecati magnam quasi!</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Ana Steel</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9074349084</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ana@gmail.com</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <section id="skills">
+                <div class="sectionhead">
+                    <h2 class="mainhead">Skills</h2>
+                    <span class="subhead">My Skills</span>
+                </div>
+                <div class="skillcontent">
+                    <div class="progressbars">
+                        <div class="bars">
+                            <h3 class="barhead">HTML</h3>
+                            <span class="barpercent">92%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar htmlbar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="barhead">CSS</h3>
+                            <span class="barpercent">86%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar cssbar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="barhead">JS</h3>
+                            <span class="barpercent">82%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar jsbar"></div>
+                        </div>
+                        <div class="bars">
+                            <h3 class="barhead">REACT</h3>
+                            <span class="barpercent">80%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar reactbar"></div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="skillimage">
+                        <img class="img2"
+                            src="https://s3.ap-south-1.amazonaws.com/production-mentormind/blogs/cover_images/000/000/008/original/GEN-Palmer-Skills-Atrophy-1290x860-1.jpg?1638801295"
+                            alt="skill">
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="sectionhead">
+                    <h2 class="mainhead">Contacts</h2>
+                    <span class="subhead">My Contacts</span>
+                </div>
+                <div class="iconcollections">
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-github brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-twitter brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-facebook brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-instagram brands"></i></a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/riya-roy-0a1ba924b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BKqYuX9ASTla8Tgp4iTlBNQ%3D%3D"
+                            target="-blank"><i class="fa-brands fa-linkedin brands "></i></a>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p id="copyright">&copy; My Portfolio Website - july 2024 ,All Rights Reserved to &reg; Ana Steel</p>
+                <div class="icon upper">
+                    <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+                </div>
+            </footer>
+        </div>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
